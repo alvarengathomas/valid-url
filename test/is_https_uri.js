@@ -11,6 +11,7 @@ test("testing is_https_uri", function (t) {
     t.ok(is_https_uri('https://www.richardsonnen.com:8080/test.html'), 'https://www.richardsonnen.com:8080/test.html');
     t.ok(is_https_uri('https://example.w3.org/path%20with%20spaces.html'), 'http://example.w3.org/path%20with%20spaces.html');
     t.ok(is_https_uri('https://192.168.0.1/'), 'http://192.168.0.1/');
+    t.ok(is_https_uri('https://abcdé.com'),'https://abcdé.com');
 
     // invalid
     t.notOk(is_https_uri(''), "bad: ''");
