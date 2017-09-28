@@ -1,5 +1,5 @@
 {
-  "name": "valid-url",
+  "name": "valid-url-accent",
   "description": "URI validation functions",
   "keywords": [
     "url",
@@ -11,11 +11,11 @@
   "version": "1.0.5",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ogt/valid-url.git"
+    "url": "git://github.com/ignicaodigital/valid-url.git"
   },
-  "homepage": "https://github.com/ogt/valid-url",
+  "homepage": "https://github.com/ignicaodigital/valid-url",
   "bugs": {
-    "url": "https://github.com/ogt/valid-url"
+    "url": "https://github.com/ignicaodigital/valid-url"
   },
   "license": "MIT",
   "main": "index.js",
